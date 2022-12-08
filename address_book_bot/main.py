@@ -48,3 +48,7 @@ def main():
 
         else:
             print('No such a command')
+
+
+if __name__ == '__main__':
+    main()
