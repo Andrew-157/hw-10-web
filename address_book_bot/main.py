@@ -1,7 +1,7 @@
-from functions.add_data import *
-from functions.change_data import *
-from functions.delete_data import *
-from functions.show_data import *
+from functions.add_data import add_contact, add_email, add_phone
+from functions.change_data import change_email, change_phone
+from functions.delete_data import delete_contact, delete_email, delete_phone, delete_phones
+from functions.show_data import show_all, show_contact, show_email, show_phones
 from db_creation.create_db import create_db
 
 COMMANDS = {
@@ -48,7 +48,3 @@ def main():
 
         else:
             print('No such a command')
-
-
-if __name__ == 'main':
-    main()
