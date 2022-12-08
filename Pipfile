@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 redis-lru = "*"
+pymongo = "*"
 
 [dev-packages]
 autopep8 = "*"
